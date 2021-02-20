@@ -5,14 +5,14 @@ Vue 修饰符 `.scyn` 的作用是，当一个组件的 `props `的值发生改�
 比如下面的代码表示，父组件和子组件的初始数据为100，每当点击一次按钮时，子组件的数据会减去1，这个数据也会同步到父组件中。
 
 ```html
-<!-- 这是 father.vue 文件 -->
+<!-- 这是 Father.vue 文件 -->
 
 <template>
   <div class="father">
     父组件数据: {{ fatherNumber }}
     <hr />
     <Child :childNumber.sync="fatherNumber" />
-    <!-- 如果不用.sync就要这样写成下面这样： -->
+    <!-- 如果不用.sync就要写成下面这样： -->
     <!-- <Child :childNumber="fatherNumber" v-on:update:childNumber="fatherNumber = $event" /> -->
   </div>
 </template>
@@ -36,7 +36,7 @@ export default {
 ```
 
 ```html
-<!-- 这是 children.vue 文件 -->
+<!-- 这是 Children.vue 文件 -->
 
 <template>
   <div class="child">
