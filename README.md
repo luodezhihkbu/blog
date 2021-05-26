@@ -13,6 +13,7 @@
 * [JavaScript 对象的基本用法](articles/JavaScript%20对象的基本用法.md)
 * [JavaScript 函数的执行时机](articles/JavaScript%20函数的执行时机.md)
 * [AJAX 的原理](articles/AJAX%20的原理.md)
+* [用 AJAX 实现分页加载](articles/用%20AJAX%20实现分页加载.md)
 
 ## Vue 相关
 
