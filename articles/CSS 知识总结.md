@@ -12,7 +12,7 @@
    
 * 三种不同的渲染方式：
   
-  ![渲染方式](images/render.jpg)
+  <img src="../images/render.jpg" alt="渲染方式" style="zoom:50%;"/>
 
 ## CSS动画的两种做法
 
@@ -60,8 +60,11 @@ animation可以在动画里增加中间点。
 
 首先需要用`@keyframes`声明关键帧，常用语法为下图的两种：
 
-![@keyframes语法1](images/animation1.png)
-![@keyframes语法2](images/animation2.png)
+<img src="../images/animation1.png" alt="@keyframes语法1" 
+style="zoom:80%; display:block; margin-bottom: 2px"/>
+
+<img src="../images/animation2.png" alt="@keyframes语法2" 
+style="zoom:80%; display:block; margin-bottom: 2px"/>
 
 接着用`animation`添加动画。`animation`的语法为：
 animation: 时长|过渡方式|延迟|次数|方向|填充模式|是否暂停|动画名;

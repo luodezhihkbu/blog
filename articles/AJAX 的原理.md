@@ -33,7 +33,9 @@ node-dev server.js 8888
 1. 创建 XMLHttpRequest 的对象，也就是创建一个异步调用对象。
 2. 调用对象的 open 方法，创建一个新的 HTTP 请求，并指定该 HTTP 请求的方法、URL。
 3. 监听对象的 onreadystatechange 事件。readyState 用来表示请求所处的状态，一个包括如下 5 个状态：
-   ![readyState](../images/readyState.jpg)
+   
+   <img src="../images/readyState.jpg" alt="readyState" style="zoom:50%;"/>
+   
    当 readyState 的值为 4 时，表示浏览器已经把页面的所有内容下载完成。
 4. 调用对象的 send 方法，发送请求。
 

@@ -7,7 +7,7 @@
 虚拟 DOM 有两个优点：
 
 1）减少 DOM 操作
-  
+
 虚拟 DOM 可以将多次操作合并为一次操作，比如你添加 1000 个节点，却是一个接一个操作的(减少频率）。
 
 虚拟 DOM 还可以借助 DOM diff 可以把多余的操作省掉，比如你添加 1000 个节点，其实只有 10 个是新增的(减少范围)。
@@ -38,10 +38,10 @@ DOM diff 就是虚拟 DOM 的对比算法，通过比较新旧虚拟 DOM 这两�
 
 DOM diff 的缺点是在对比同级节点时，会出现识别错误的问题。比如在 Vue 的 v-for 中，如果没有绑定 key 的值，就会出 Bug 。
 
-![diff1](images/diff1.jpg)
+<img src="../images/diff1.jpg" alt="diff1" style="zoom:60%">
 
 如图所示有三个输入框，如果点击第二个 delete ，最后的结果会变成下图这样，“正方形”这几个字并没有删除。
 
-![diff2](images/diff2.jpg)
+<img src="../images/diff2.jpg" alt="diff2" style="zoom:60%">
 
 解决这个 Bug 的方法就是绑定 key 的值，但是不能用 index 作为 key 值，否则还是会出现上述的 Bug 。

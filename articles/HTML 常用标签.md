@@ -35,29 +35,29 @@
 比如下面的代码展示的就是一个表格：
 ```html
 <table>
-        <thead>
-            <tr>
-                <th>发行日期</th>
-                <th>专辑名</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>1985年4月18日</td>
-                <td>Smile</td>
-            </tr>
-            <tr>
-                <td>1986年1月5日</td>
-                <td>遥远的她AMOUR</td>
-            </tr>
-            <tr>
-                <td>1986年5月9日</td>
-                <td>情无四归</td>
-            </tr>
-            <tr>
-                <td>1986年10月23日</td>
-                <td>相爱</td>
-            </tr>
+    <thead>
+        <tr>
+            <th>发行日期</th>
+            <th>专辑名</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>1985年4月18日</td>
+            <td>Smile</td>
+        </tr>
+        <tr>
+            <td>1986年1月5日</td>
+            <td>遥远的她AMOUR</td>
+        </tr>
+        <tr>
+            <td>1986年5月9日</td>
+            <td>情无四归</td>
+        </tr>
+        <tr>
+            <td>1986年10月23日</td>
+            <td>相爱</td>
+        </tr>
    </tbody>
 </table>
 ```
