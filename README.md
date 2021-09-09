@@ -8,7 +8,6 @@
 
 ## JavaScript 相关
 
-* [JavaScript 的诞生](articles/JavaScript%20的诞生.md)
 * [JavaScript 基本语法](articles/JavaScript%20基本语法.md)
 * [JavaScript 对象的基本用法](articles/JavaScript%20对象的基本用法.md)
 * [JavaScript 函数的执行时机](articles/JavaScript%20函数的执行时机.md)
