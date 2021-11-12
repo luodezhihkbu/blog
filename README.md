@@ -14,7 +14,6 @@
 * [AJAX 的原理](articles/AJAX%20的原理.md)
 * [用 AJAX 实现分页加载](articles/用%20AJAX%20实现分页加载.md)
 * [DOM 事件和事件委托](articles/DOM%20事件和事件委托.md)
-* [虚拟 DOM 和 DOM diff](articles/虚拟%20DOM%20和%20DOM%20diff.md)
 
 ## Vue 相关
 
